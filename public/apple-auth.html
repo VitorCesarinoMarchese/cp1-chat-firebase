@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Returning to Conversa</title>
+  </head>
+  <body>
+    <p>Returning to the app...</p>
+    <script>
+      // Apple returns the ID token in the URL fragment for the native fallback.
+      // The app's AuthSession listener receives the same fragment through its scheme.
+      const response = window.location.search + window.location.hash;
+      if (response) {
+        window.location.replace('cp1chat://auth' + response);
+      } else {
+        document.querySelector('p').textContent = 'Apple login did not return a response.';
+      }
+    </script>
+  </body>
+</html>

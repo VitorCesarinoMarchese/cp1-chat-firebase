@@ -2,6 +2,16 @@
 
 Aplicativo de chat privado 1 para 1 feito para o CheckPoint 1. Usuários autenticados podem conversar em tempo real quando os provedores de autenticação são compatíveis.
 
+## Integrantes
+
+Os nomes e RMs informados para a equipe são:
+
+- RM554962 - Guilherme
+- RM555556 - Pedro
+- RM558216 - Fabrício
+- RM554893 - Vitor
+- RM555447 - Matheus
+
 ## Tecnologias
 
 - React Native
@@ -153,16 +163,6 @@ Adicione os prints reais antes da entrega:
 ![Tela de contatos](docs/screenshots/contacts.png)
 
 ![Tela de chat](docs/screenshots/chat.png)
-
-## Integrantes
-
-Os nomes e RMs informados para a equipe são:
-
-- RM554962 - Guilherme
-- RM555556 - Pedro
-- RM558216 - Fabrício
-- RM554893 - Vitor
-- RM555447 - Matheus
 
 ## Entrega
 
